@@ -1,0 +1,30 @@
+.carousel img{
+    width: 100% !important;
+    height: 85vh !important;
+}
+.card{
+    position: relative;
+   
+}
+.btn-container{
+    position: absolute;
+    transform: translateY(8vh);
+    opacity: 0;
+    transition: all .5s ease-in;
+}
+.card:hover .btn-container{
+    transform: translateY(-9vh);
+    opacity: 1;
+}
+
+.quality-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin-top: 20px;
+} 
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgb(255, 0, 0);
+    border-radius: 50px;
+}
